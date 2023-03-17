@@ -11,12 +11,7 @@ type Props = {
  * the promise prop. This means that the component expects to receive a promise that resolves 
  * to an array of objects representing posts. Once the promise is resolved, the array of posts 
  * is assigned to the posts variable. The map() function is then used to iterate over each post 
- * in the posts array and generate an HTML article element for each post. The key prop is used to 
- * assign a unique identifier to each article element. The h2 element contains the post's title, 
- * and the p element contains the post's body. A br element is included at the end of each article 
- * to add some vertical space between the posts. Finally, the content variable, which now contains 
- * an array of HTML article elements, is returned from the component. This can be rendered directly 
- * within a parent component by including the UserPosts component and passing in the appropriate promise prop.
+ * in the posts array and generate an HTML article element for each post. 
  * 
  * @param // Props, which contains a promise of an array of posts
  * @returns an array of HTML components to be rendered 
